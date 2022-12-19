@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Zaibunnissa's component library</h1>
+    <p>I am attending Neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+<hr>
+
+<h2>@Typography</h2>
+<h1>This is biggest heading.</h1>
+<h2>This is second biggest heading.</h2>
+<p>This is normal text.</p>
+<small>This is relatively smaller text.</small>
+
+<hr>
+<h2>@containers</h2>
+
+<h3>Fluid container</h3>
+<div class="container container-fluid">This is a fluid container and it will go till end of the page</div>
+
+<h3>centre container</h3>
+<div class="container container-center">This is a center container and it will go till the specified page</div>
+<hr>
+
+<h2>@links</h2>
+<a class = "link link-primary" href="/">Primary links</a>
+<a class = "link link-secondary" href="/">Secondary links</a>
+<hr>
+<h2>@Lists</h2>
+<h3>Unordered list</h3>
+<p>This list wont have bullets</p>
+<ul class="list-non-bullet">
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li>
+</ul>
+
+<h3>Unordered inline list</h3>
+<ul>
+    <li class="list-item-inline">Inline Item one</li>
+    <li class="list-item-inline">Inline Item two</li>
+    <li class="list-item-inline">Inline Item three</li>
+</ul>
+
+<h3>reverse ordered list</h3>
+<ol reversed>
+    <li>Rice</li>
+    <li>Eggs</li>
+    <li>Milk</li>
+</ol>
+
+<hr>
+<h2>@navigation</h2>
+<nav class="navigation">
+<div class="nav-brand">IAM BRAND</div>
+<ul class="list non-bullet nav-pills">    
+<li class="list-item-inline">
+        <a class="link link-active" href="/">Home</a>
+    </li>
+    <li class="list-item-inline">
+        <a class="link" href="/">Products</a>
+    </li>
+    <li class="list-item-inline">
+   <a class="link" href="/">About</a>
+    </li>
+    </ul>
+</nav>
+<hr>
+<h2>@header</h2>
+<header class="hero">
+    <img class="hero-img" src="images/header.svg"/>
+    <!--we can use this
+        <h1 class="hero-heading">Adarsh balika the <span style= color:var(--primary-color)>web developer </span></h1>-->
+    <h1 class="hero-heading">Adarsh balika the <span class="heading-inverted">web developer </span></h1> </header>
+
+<h2>@sections</h2>
+
+<hr>
+
+<section class="section">
+    <div class="container container-center">
+    <h1>white section</h1>
+    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+    </div>
+</section>
+<section class="section ow">
+    <div class="container container-center">
+    <h1>off-white section</h1>
+    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+ </div>
+</section>
+
+<hr>
+<h2>@footer</h2>
+<footer class ="footer">
+    <div class="footer-header">Some small heading inside footer</div>
+    <ul class="social-links">
+        <li class="list-item-inline">
+        <a class="link" href="/">social one</a>
+    </li>
+    <li class="list-item-inline">
+        <a class="link" href="/">social Two</a>
+    </li>
+    <li class="list-item-inline">
+        <a class="link"href="/">social three</a>
+    </li>
+    </ul>
+</footer>
+</body>
+</html>
